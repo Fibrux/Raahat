@@ -5,9 +5,9 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>About - Calvin</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <title>Raahat | About</title>
+    <meta name="description" content="Fundraising Non Governmnet Organisation">
+    <meta name="author" content="Isha Zaheer & Yash Kumar">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -17,6 +17,9 @@
     ================================================== -->
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@700&display=swap" rel="stylesheet">
 
     <!-- script
     ================================================== -->
@@ -46,33 +49,21 @@
     ================================================== -->
     <header class="s-header s-header--opaque">
 
-        <div class="s-header__logo">
+        <div class="s-header__logo" style="padding-left: 50px">
             <a class="logo" href="index.html">
                 <img src="images/logo.svg" alt="Homepage">
             </a>
         </div>
 
-        <div class="row s-header__navigation">
+        <div class="row s-header__navigation"><span class="pad" style="padding-left: 700px">&nbsp;</span>
 
             <nav class="s-header__nav-wrap">
 
                 <h3 class="s-header__nav-heading h6">Navigate to</h3>
 
                 <ul class="s-header__nav">
-                    <li><a href="index.html" title="">Home</a></li>
-                    <li class="has-children">
-                        <a href="#0" title="">Categories</a>
-                        <ul class="sub-menu">
-                            <li><a href="category.html">Design</a></li>
-                            <li><a href="category.html">Lifestyle</a></li>
-                            <li><a href="category.html">Photography</a></li>
-                            <li><a href="category.html">Vacation</a></li>
-                            <li><a href="category.html">Work</a></li>
-                            <li><a href="category.html">Health</a></li>
-                            <li><a href="category.html">Family</a></li>
-                            <li><a href="category.html">Relationship</a></li>
-                        </ul>
-                    </li>
+                    <li class="current"><a href="index.html" title="">Home</a></li>  
+                    <li><a href="about.html" title="">About Us</a></li>
                     <li class="has-children">
                         <a href="#0" title="">Blog</a>
                         <ul class="sub-menu">
@@ -81,9 +72,8 @@
                             <li><a href="single-standard.html">Standard Post</a></li>
                         </ul>
                     </li>
-                    <li><a href="styles.html" title="">Styles</a></li>
-                    <li class="current"><a href="about.html" title="">About</a></li>
-                    <li><a href="contact.html" title="">Contact</a></li>
+                    <li><a href="contact.html" title="">Contact Us</a></li>
+					<li><a href="contact.html" title="" style="font-weight: bold">DO YOUR PART</a></li>
                 </ul> <!-- end s-header__nav -->
 
                 <a href="#0" title="Close Menu" class="s-header__overlay-close close-mobile-menu">Close</a>
@@ -117,26 +107,58 @@
         <a class="s-header__search-trigger" href="#">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.982 17.983"><path fill="#010101" d="M12.622 13.611l-.209.163A7.607 7.607 0 017.7 15.399C3.454 15.399 0 11.945 0 7.7 0 3.454 3.454 0 7.7 0c4.245 0 7.699 3.454 7.699 7.7a7.613 7.613 0 01-1.626 4.714l-.163.209 4.372 4.371-.989.989-4.371-4.372zM7.7 1.399a6.307 6.307 0 00-6.3 6.3A6.307 6.307 0 007.7 14c3.473 0 6.3-2.827 6.3-6.3a6.308 6.308 0 00-6.3-6.301z"/></svg>
         </a>
-
     </header> <!-- end s-header -->
 
 
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero">
+
+        <div class="s-hero__slider">
+
+            <div class="s-hero__slide">
+
+				<object data="sunset_rise.html" style="width: 100%; height: inherit;display: block;top: 0;left: 0;right: 0;bottom: 0;    width: 100%;    height: 100%;    background-size: cover;    background-position: center center;    background-repeat: no-repeat;"></object>
+
+                <div class="row  animate-this" style="top: 65%; left: 4%; position: absolute; ">
+                    <div class="column" >
+                        <div class="s-hero__slide-meta">
+                            <span class="byline"> 
+                                Helping Spread Relief 
+                            </span>
+                        </div>
+                        <h1 class="s-hero__slide-text">
+                            <a href="index.html">
+                                About Us
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+
+            </div> <!-- end s-hero__slide -->
+
+        </div> <!-- end s-hero__slider -->
+
+        <div class="s-hero__social hide-on-mobile-small">
+            <p>Socials</p>
+            <span></span>
+            <ul class="s-hero__social-icons">
+                <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div> <!-- end s-hero__social -->
+
+    </section> <!-- end s-hero -->
+
     <!-- content
     ================================================== -->
-    <section class="s-content">
+    <section class="s-content s-content--no-top-padding">
 
         <div class="row">
             <div class="column large-12">
 
                 <article class="s-content__entry">
-
-                    <div class="s-content__media">
-                        <img src="images/thumbs/about/about-1050.jpg" 
-                                srcset="images/thumbs/about/about-2100.jpg 2100w, 
-                                        images/thumbs/about/about-1050.jpg 1050w, 
-                                        images/thumbs/about/about-525.jpg 525w" sizes="(max-width: 2100px) 100vw, 2100px" alt="">
-
-                    </div> <!-- end s-content__media -->
 
                     <div class="s-content__entry-header">
                         <h1 class="s-content__title">Learn More About Story.</h1>
@@ -187,25 +209,6 @@
                                     consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.
                                     </p>
                                 </div>
-
-                                <div class="column">
-                                    <h4>What.</h4>
-                                    <p>
-                                    Lorem ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat qui sit ex 
-                                    occaecat et eu mollit nisi pariatur fugiat deserunt dolor veniam reprehenderit aliquip magna nisi 
-                                    consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.
-                                    </p>
-                                </div>
-
-                                <div class="column">
-                                    <h4>How.</h4>
-                                    <p>
-                                    Lorem ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat qui 
-                                    sit ex occaecat et eu mollit nisi pariatur fugiat deserunt dolor veniam reprehenderit aliquip 
-                                    magna nisi consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.
-                                    </p>
-                                </div>
-
                             </div>
                         </div> <!-- end s-entry__page-content -->
 
@@ -213,7 +216,7 @@
                 </article> <!-- end entry -->
 
             </div> <!-- end column -->
-        </div> <!-- end row -->
+        </div> <!-- end row --><br><br>
 
     </section> <!-- end s-content -->
 
@@ -228,9 +231,9 @@
 
                 <div class="column large-3 medium-6 tab-12 s-footer__info">
 
-                    <h5>About Our Site</h5>
+                    <h5>About Raahat</h5>
 
-                    <p>
+                    <p style="font-family: 'Montaga', serif;">
                     Lorem ipsum Ut velit dolor Ut labore id fugiat in ut 
                     fugiat nostrud qui in dolore commodo eu magna Duis 
                     cillum dolor officia esse mollit proident Excepteur 
@@ -244,12 +247,10 @@
 
                     <h5>Site Links</h5>
 
-                    <ul>
+                    <ul style="font-family: 'Montaga', serif;">
                         <li><a href="#0">About Us</a></li>
                         <li><a href="#0">Blog</a></li>
-                        <li><a href="#0">FAQ</a></li>
-                        <li><a href="#0">Terms</a></li>
-                        <li><a href="#0">Privacy Policy</a></li>
+                        <li><a href="#0">Contact</a></li>
                     </ul>
 
                 </div> <!-- end s-footer__site-links -->  
@@ -258,11 +259,9 @@
 
                     <h5>Follow Us</h5>
 
-                    <ul>
+                    <ul style="font-family: 'Montaga', serif;">
                         <li><a href="#0">Twitter</a></li>
                         <li><a href="#0">Facebook</a></li>
-                        <li><a href="#0">Dribbble</a></li>
-                        <li><a href="#0">Pinterest</a></li>
                         <li><a href="#0">Instagram</a></li>
                     </ul>
 
@@ -270,9 +269,9 @@
 
                 <div class="column large-3 medium-6 tab-12 s-footer__subscribe">
 
-                    <h5>Sign Up for Newsletter</h5>
+                    <h5>Dou Your Part</h5>
 
-                    <p>Signup to get updates on articles, interviews and events.</p>
+                    <p style="font-family: 'Montaga', serif;">Help us in sharing relief with humanity</p>
 
                     <div class="subscribe-form">
                 
@@ -297,9 +296,9 @@
         <div class="s-footer__bottom">
             <div class="row">
                 <div class="column">
-                    <div class="ss-copyright">
-                        <span>© Copyright Calvin 2020</span> 
-                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                    <div class="ss-copyright"  style="font-family: 'Montaga', serif;">
+                        <span>© Copyright Raahat 2021</span> 
+                        <span>Design at <a href="https://fibrux.github.io/x">Fibrux<img src="" alt=""/></a></span>
                     </div> <!-- end ss-copyright -->
                 </div>
             </div> 
@@ -319,6 +318,12 @@
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+	<script>
+	var pad = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
+    if (pad) { 
+        $('.pad').css('display', 'none'); // OR you can use $('.navWrap').hide();
+    }
+	</script>
 
 </body>
 
