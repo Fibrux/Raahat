@@ -180,14 +180,14 @@
         });
 
         $heroSlider.slick({
-            arrows: false,
+            /*arrows: false,
             dots: true,
             speed: 1000,
             fade: true,
             cssEase: 'linear',
             autoplay: false,
             autoplaySpeed: 5000,
-            pauseOnHover: false
+            pauseOnHover: false*/
         });
 
         $heroSlider.on('beforeChange', function(event, slick, currentSlide){
